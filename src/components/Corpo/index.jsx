@@ -17,6 +17,8 @@ const Corpo = () => {
   } = useDados();
 
   const handleNextPage = async () => {
+    /* rolar para topo da página */
+    window.scrollTo(0, 0);
     const response = await axios.get(nextPage);
     setCharacters(response.data.results);
     setNextPage(response.data.info.next);
@@ -26,6 +28,8 @@ const Corpo = () => {
   };
 
   const handlePrevPage = async (prev) => {
+    /* rolar para topo da página */
+    window.scrollTo(0, 0);
     const response = await axios.get(prev);
     setCharacters(response.data.results);
     setNextPage(response.data.info.next);

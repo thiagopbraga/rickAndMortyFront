@@ -4,8 +4,10 @@ export const Container = styled.header`
     background: #97ce4c;
     display: flex;
     justify-content: center;
-    height: 198px;
+    height: 7rem;
     align-items: center;
+    margin-bottom: 10px;
+    border-bottom: 1px solid #44281d;
 `;
 
 export const Content = styled.div`

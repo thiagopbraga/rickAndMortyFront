@@ -81,6 +81,7 @@ export const Botoes = styled.div`
     justify-content: center;
     gap: 16px;
     margin-top: 16px;
+    margin-bottom: 20px;
 
     button {
         width: 100px;
